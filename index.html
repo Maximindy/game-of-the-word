@@ -1,40 +1,43 @@
+bp_qd
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
 
 
 
-    
+
     <h2 id="titula" class="titula"></h2>
-    
-    
-    <main class="main3000" >
+
+
+    <main class="main3000">
         <div class="div2000">
             <p>click to choose the level</p>
-            <div class="div1001">            
-                <button class="button1 acktive">
+            <div class="div1001">
+                <button id="button1" class="button1 acktive">
                     <span>🐣</span>
                     Easy
                 </button>
-                <button class="button1">
+                <button id="button2" class="button1">
                     <span>⚡</span>
                     Medium
                     <br>
-                     120/100
+                    120/100
                 </button>
-                <button class="button1 locked" > 
+                <button disabled id="button3" class="button1 locked ">
                     <span>🔒</span>
                     Hard
                     <br>
                     120/300
                 </button>
-                <button class="button1 locked">
+                <button disabled id="button4" class="button1 locked">
                     <span>🔒</span>
                     Extreme
                     <br>
@@ -43,12 +46,33 @@
             </div>
 
         </div>
-        <div class="div1000"> 
+        <div class="div1000">
+            <div class="div1002">
+                <div class="d105">
+                    <img src="images/alarm.svg" alt="">
+                    <p class="p1">Time per word</p>
+                </div>
+                <h3 class="seconds" id="seconds">3 seconds </h3>
+            </div>
+
+            <div class="div1002">
+                <div class="d105">
+                    <img src="images/ruler.svg" alt="">
+                    <p class="p1">word lenght</p>
+                </div>
+                <h3 class="seconds" id="letters">3 - 5 letters</h3>
+            </div>
+
+
 
         </div>
         <button class="button0"></button>
+
+
     </main>
-    
+
     <script src="scripts/titula.js"></script>
+    <script src="scripts/levels.js"></script>
 </body>
+
 </html>
