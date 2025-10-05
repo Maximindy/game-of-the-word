@@ -1,63 +1,67 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
 }
 
 body {
-    padding: 64px;
-    background: rgba(245, 245, 245, 1);
+  padding: 64px;
+  background: rgba(245, 245, 245, 1);
 }
 
 .titula {
-    color: #1a1a1a;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 72px;
-    text-align: center;
-    animation: slogan 3s infinite;
+  color: #1a1a1a;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  text-align: center;
+  animation: slogan 3s infinite;
 }
+
 @keyframes slogan {
-    0% {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    10% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  
-    90% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(10px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
   }
-    
+
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
 
 .bebra {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
 }
+
 .g {
-    margin-top: -24px;
+  margin-top: -24px;
 }
 
 .main3000 {
   display: flex;
-  margin-top:64px;
+  margin-top: 64px;
   justify-content: center;
-  gap:36px;
+  gap: 36px;
   flex-direction: column;
   align-items: center;
-  
+
 }
 
 .div2000 {
@@ -65,15 +69,16 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  
+
 }
 
 
 .div1001 {
   display: flex;
-  gap:16px ;
+  gap: 16px;
   align-items: start;
 }
+
 .button1 {
   border-radius: 16px;
   border: none;
@@ -94,7 +99,7 @@ body {
 }
 
 .locked {
- opacity: 0.4;
+  opacity: 0.4;
 
 }
 
@@ -105,16 +110,19 @@ body {
   align-items: center;
   gap: 24px;
 }
+
 .div1002 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .d105 {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .p1 {
   color: rgba(26, 26, 26, 1);
   font-size: 24px;
@@ -122,6 +130,7 @@ body {
   line-height: 36px;
 
 }
+
 .seconds {
   color: rgba(26, 26, 26, 1);
   font-size: 48px;
@@ -129,10 +138,17 @@ body {
   line-height: 72px;
 
 }
+
 .button0 {
-  
+  padding: 8px 16px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 20px 0px rgba(76, 175, 80, 0.25);
+  background: rgba(76, 175, 80, 1);
+  border: none;
+  color: rgba(245, 245, 245, 1);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  cursor: pointer;
+  width: 268px;
 }
-
-
-
-
