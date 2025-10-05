@@ -6,7 +6,7 @@ const button4 = document.getElementById("button4")
 const seconds = document.getElementById("seconds")
 const letters = document.getElementById("letters")
 
-let level;
+let level = "easy";
 
 
 
